@@ -2,6 +2,98 @@
 
 All notable changes to `laravel-backup` will be documented in this file.
 
+## 8.1.2 - 2022-04-08
+
+## What's Changed
+
+- Update .gitattributes by @angeljqv in https://github.com/spatie/laravel-backup/pull/1514
+- Use non-recursive files() method to test if destination is reachable by @mike-healy in https://github.com/spatie/laravel-backup/pull/1518
+
+## New Contributors
+
+- @angeljqv made their first contribution in https://github.com/spatie/laravel-backup/pull/1514
+- @mike-healy made their first contribution in https://github.com/spatie/laravel-backup/pull/1518
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.1.1...8.1.2
+
+## 7.8.0 - 2022-03-08
+
+- Exceptions will be reported when creating a back-up fails
+- Notifications will now include the application's environment
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/7.7.3...7.8.0
+
+## 8.1.1 - 2022-03-08
+
+- Exceptions will be reported when creating a back-up fails
+- Notifications will now include the application's environment
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.1.0...8.1.1
+
+## 8.1.0 - 2022-03-08
+
+- Exceptions will be reported when creating a back-up fails
+- Notifications will now include the application's environment
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.0.10...8.1.0
+
+## 8.0.10 - 2022-03-08
+
+## What's Changed
+
+- Warns the user about old-style config files for backup:list and backup:monitor commands by @bzarzuela in https://github.com/spatie/laravel-backup/pull/1495
+- PHPUnit to Pest Converter by @freekmurze in https://github.com/spatie/laravel-backup/pull/1503
+
+## New Contributors
+
+- @bzarzuela made their first contribution in https://github.com/spatie/laravel-backup/pull/1495
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.0.9...8.0.10
+
+## 8.0.9 - 2022-03-02
+
+## What's Changed
+
+- Allow any characters in backup destination name by @misakstvanu in https://github.com/spatie/laravel-backup/pull/1499
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.0.8...8.0.9
+
+## 8.0.8 - 2022-02-23
+
+## What's Changed
+
+- Fix mistakes in cs/notifications.php by @misakstvanu in https://github.com/spatie/laravel-backup/pull/1493
+
+## New Contributors
+
+- @misakstvanu made their first contribution in https://github.com/spatie/laravel-backup/pull/1493
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.0.7...8.0.8
+
+## 8.0.7 - 2022-02-23
+
+## What's Changed
+
+- Fixes Brazilian Translation by @Diogo-Freitas in https://github.com/spatie/laravel-backup/pull/1490
+
+## New Contributors
+
+- @Diogo-Freitas made their first contribution in https://github.com/spatie/laravel-backup/pull/1490
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.0.6...8.0.7
+
+## 8.0.6 - 2022-02-18
+
+## What's Changed
+
+- Updates newest_backup_date and oldest_backup_date by @opengis in https://github.com/spatie/laravel-backup/pull/1487
+
+## New Contributors
+
+- @opengis made their first contribution in https://github.com/spatie/laravel-backup/pull/1487
+
+**Full Changelog**: https://github.com/spatie/laravel-backup/compare/8.0.5...8.0.6
+
 ## 8.0.5 - 2022-02-13
 
 ## What's Changed

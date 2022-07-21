@@ -26,7 +26,7 @@ class BackupDestination
 
         $this->diskName = $diskName;
 
-        $this->backupName = (string)preg_replace('/[^a-zA-Z0-9.]/', '-', $backupName);
+        $this->backupName = $backupName;
     }
 
     public function disk(): Filesystem
@@ -137,7 +137,7 @@ class BackupDestination
         }
 
         try {
-            $this->disk->allFiles($this->backupName);
+            $this->disk->files($this->backupName);
 
             return true;
         } catch (Exception $exception) {
